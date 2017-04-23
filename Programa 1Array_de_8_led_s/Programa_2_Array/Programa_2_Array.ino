@@ -1,6 +1,6 @@
 /*********************************************************************
  **                                                                 **       
- **                          TÏTOL: Entrades i sortides digitals                    ** 
+ **                          TÏTOL: Entrades i sortides digitals    ** 
  **                                                                 **
  **                                                                 ** 
  **  Nom: Salva Ramírez                          Data: 27/03/2017   **
@@ -17,7 +17,7 @@ const int led4 = 9;          // donar nom al pin 9 de l’Arduino
 const int led5 = 10;         // donar nom al pin 10 de l’Arduino
 const int led6 = 11;         // donar nom al pin 11 de l’Arduino
 const int led7 = 12;         // donar nom al pin 12 de l’Arduino
-
+int pausa = 50;
 //************************* SETUP ************************************
 
 void setup() 
@@ -34,27 +34,247 @@ void setup()
 //********** Loop *******************************************************
 void loop()
 {
-  digitalWrite(led0, HIGH);    // posar a 5V el pin 5
-  digitalWrite(led1, LOW);    // posar a 0V el pin 6
-  digitalWrite(led2, HIGH);    // posar a 5V el pin 7
-  digitalWrite(led3, LOW);    // posar a 0V el pin 8
-  digitalWrite(led4, HIGH);    // posar a 5V el pin 9
-  digitalWrite(led5, LOW);    // posar a 0V el pin 10
-  digitalWrite(led6, HIGH);    // posar a 5V el pin 11
-  digitalWrite(led7, LOW);    // posar a 0V el pin 12
+  digitalWrite(led0, LOW);    
+  digitalWrite(led1, LOW);    
+  digitalWrite(led2, LOW);   
+  digitalWrite(led3, LOW);     
+  digitalWrite(led4, LOW);  
+  digitalWrite(led5, LOW);     
+  digitalWrite(led6, LOW);    
+  digitalWrite(led7, LOW);
   
-  delay(500);                  // es queden leds 500ms encesos
+  delay(pausa); // es queden leds pausa ms en aquest estat
   
-  digitalWrite(led0, LOW);     // posar a 0V el pin 5
-  digitalWrite(led1, HIGH);     // posar a 5V el pin 6
-  digitalWrite(led2, LOW);     // posar a 0V el pin 7
-  digitalWrite(led3, HIGH);     // posar a 5V el pin 8
-  digitalWrite(led4, LOW);     // posar a 0V el pin 9
-  digitalWrite(led5, HIGH);     // posar a 5V el pin 10
-  digitalWrite(led6, LOW);     // posar a 0V el pin 11
-  digitalWrite(led7, HIGH);     // posar a 5V el pin 12
+  digitalWrite(led0, HIGH);    
+  digitalWrite(led1, LOW);    
+  digitalWrite(led2, LOW);   
+  digitalWrite(led3, LOW);     
+  digitalWrite(led4, LOW);  
+  digitalWrite(led5, LOW);     
+  digitalWrite(led6, LOW);    
+  digitalWrite(led7, LOW);
   
-  delay(500);                  // es queden leds 500ms apagats
+  delay(pausa); // es queden leds pausa ms en aquest estat
+    
+  digitalWrite(led0, HIGH);    
+  digitalWrite(led1, HIGH);    
+  digitalWrite(led2, LOW);   
+  digitalWrite(led3, LOW);     
+  digitalWrite(led4, LOW);  
+  digitalWrite(led5, LOW);     
+  digitalWrite(led6, LOW);    
+  digitalWrite(led7, LOW);
+  
+  delay(pausa);                  // es queden leds pausa ms en aquest estat
+      
+  digitalWrite(led0, HIGH);    
+  digitalWrite(led1, HIGH);    
+  digitalWrite(led2, HIGH);   
+  digitalWrite(led3, LOW);     
+  digitalWrite(led4, LOW);  
+  digitalWrite(led5, LOW);     
+  digitalWrite(led6, LOW);    
+  digitalWrite(led7, LOW);
+  
+  delay(pausa);                  // es queden leds pausa ms en aquest estat
+        
+  digitalWrite(led0, LOW);    
+  digitalWrite(led1, HIGH);    
+  digitalWrite(led2, HIGH);   
+  digitalWrite(led3, HIGH);     
+  digitalWrite(led4, LOW);  
+  digitalWrite(led5, LOW);     
+  digitalWrite(led6, LOW);    
+  digitalWrite(led7, LOW);
+  
+  delay(pausa);                  // es queden leds pausa ms en aquest estat
+          
+  digitalWrite(led0, LOW);    
+  digitalWrite(led1, LOW);    
+  digitalWrite(led2, HIGH);   
+  digitalWrite(led3, HIGH);     
+  digitalWrite(led4, HIGH);  
+  digitalWrite(led5, LOW);     
+  digitalWrite(led6, LOW);    
+  digitalWrite(led7, LOW);
+  
+  delay(pausa);                  // es queden leds pausa ms en aquest estat
+            
+  digitalWrite(led0, LOW);    
+  digitalWrite(led1, LOW);    
+  digitalWrite(led2, LOW);   
+  digitalWrite(led3, HIGH);     
+  digitalWrite(led4, HIGH);  
+  digitalWrite(led5, HIGH);     
+  digitalWrite(led6, LOW);    
+  digitalWrite(led7, LOW);
+  
+  delay(pausa);                  // es queden leds pausa ms en aquest estat
+              
+  digitalWrite(led0, LOW);    
+  digitalWrite(led1, LOW);    
+  digitalWrite(led2, LOW);   
+  digitalWrite(led3, LOW);     
+  digitalWrite(led4, HIGH);  
+  digitalWrite(led5, HIGH);     
+  digitalWrite(led6, HIGH);    
+  digitalWrite(led7, LOW);
+  
+  delay(pausa);                  // es queden leds pausa ms en aquest estat
+                
+  digitalWrite(led0, LOW);    
+  digitalWrite(led1, LOW);    
+  digitalWrite(led2, LOW);   
+  digitalWrite(led3, LOW);     
+  digitalWrite(led4, LOW);  
+  digitalWrite(led5, HIGH);     
+  digitalWrite(led6, HIGH);    
+  digitalWrite(led7, HIGH);
+  
+  delay(pausa);                  // es queden leds pausa ms en aquest estat
+                  
+  digitalWrite(led0, LOW);    
+  digitalWrite(led1, LOW);    
+  digitalWrite(led2, LOW);   
+  digitalWrite(led3, LOW);     
+  digitalWrite(led4, LOW);  
+  digitalWrite(led5, LOW);     
+  digitalWrite(led6, HIGH);    
+  digitalWrite(led7, HIGH);
+  
+  delay(pausa);                  // es queden leds pausa ms en aquest estat
+                    
+  digitalWrite(led0, LOW);    
+  digitalWrite(led1, LOW);    
+  digitalWrite(led2, LOW);   
+  digitalWrite(led3, LOW);     
+  digitalWrite(led4, LOW);  
+  digitalWrite(led5, LOW);     
+  digitalWrite(led6, LOW);    
+  digitalWrite(led7, HIGH);
+  
+  delay(pausa);                  // es queden leds pausa ms en aquest estat
+                      
+  digitalWrite(led0, LOW);    
+  digitalWrite(led1, LOW);    
+  digitalWrite(led2, LOW);   
+  digitalWrite(led3, LOW);     
+  digitalWrite(led4, LOW);  
+  digitalWrite(led5, LOW);     
+  digitalWrite(led6, LOW);    
+  digitalWrite(led7, LOW);
+  
+  delay(pausa);                  // es queden leds pausa ms en aquest estat
+                        
+  digitalWrite(led0, LOW);    
+  digitalWrite(led1, LOW);    
+  digitalWrite(led2, LOW);   
+  digitalWrite(led3, LOW);     
+  digitalWrite(led4, LOW);  
+  digitalWrite(led5, LOW);     
+  digitalWrite(led6, LOW);    
+  digitalWrite(led7, HIGH);
+  
+  delay(pausa);                  // es queden leds pausa ms en aquest estat
+                          
+  digitalWrite(led0, LOW);    
+  digitalWrite(led1, LOW);    
+  digitalWrite(led2, LOW);   
+  digitalWrite(led3, LOW);     
+  digitalWrite(led4, LOW);  
+  digitalWrite(led5, LOW);     
+  digitalWrite(led6, HIGH);    
+  digitalWrite(led7, HIGH);
+  
+  delay(pausa);                  // es queden leds pausa ms en aquest estat
+                          
+  digitalWrite(led0, LOW);    
+  digitalWrite(led1, LOW);    
+  digitalWrite(led2, LOW);   
+  digitalWrite(led3, LOW);     
+  digitalWrite(led4, LOW);  
+  digitalWrite(led5, HIGH);     
+  digitalWrite(led6, HIGH);    
+  digitalWrite(led7, HIGH);
+  
+  delay(pausa);                  // es queden leds pausa ms en aquest estat
+                            
+  digitalWrite(led0, LOW);    
+  digitalWrite(led1, LOW);    
+  digitalWrite(led2, LOW);   
+  digitalWrite(led3, LOW);     
+  digitalWrite(led4, HIGH);  
+  digitalWrite(led5, HIGH);     
+  digitalWrite(led6, HIGH);    
+  digitalWrite(led7, LOW);
+  
+  delay(pausa);                  // es queden leds pausa ms en aquest estat
+                              
+  digitalWrite(led0, LOW);    
+  digitalWrite(led1, LOW);    
+  digitalWrite(led2, LOW);   
+  digitalWrite(led3, HIGH);     
+  digitalWrite(led4, HIGH);  
+  digitalWrite(led5, HIGH);     
+  digitalWrite(led6, LOW);    
+  digitalWrite(led7, LOW);
+  
+  delay(pausa);                  // es queden leds pausa ms en aquest estat
+                                
+  digitalWrite(led0, LOW);    
+  digitalWrite(led1, LOW);    
+  digitalWrite(led2, HIGH);   
+  digitalWrite(led3, HIGH);     
+  digitalWrite(led4, HIGH);  
+  digitalWrite(led5, LOW);     
+  digitalWrite(led6, LOW);    
+  digitalWrite(led7, LOW);
+  
+  delay(pausa);                  // es queden leds pausa ms en aquest estat
+                                  
+  digitalWrite(led0, LOW);    
+  digitalWrite(led1, HIGH);    
+  digitalWrite(led2, HIGH);   
+  digitalWrite(led3, HIGH);     
+  digitalWrite(led4, LOW);  
+  digitalWrite(led5, LOW);     
+  digitalWrite(led6, LOW);    
+  digitalWrite(led7, LOW);
+  
+  delay(pausa);                  // es queden leds pausa ms en aquest estat
+                                   
+  digitalWrite(led0, HIGH);    
+  digitalWrite(led1, HIGH);    
+  digitalWrite(led2, HIGH);   
+  digitalWrite(led3, LOW);     
+  digitalWrite(led4, LOW);  
+  digitalWrite(led5, LOW);     
+  digitalWrite(led6, LOW);    
+  digitalWrite(led7, LOW);
+  
+  delay(pausa);                  // es queden leds pausa ms en aquest estat
+                                     
+  digitalWrite(led0, HIGH);    
+  digitalWrite(led1, HIGH);    
+  digitalWrite(led2, LOW);   
+  digitalWrite(led3, LOW);     
+  digitalWrite(led4, LOW);  
+  digitalWrite(led5, LOW);     
+  digitalWrite(led6, LOW);    
+  digitalWrite(led7, LOW);
+  
+  delay(pausa);                  // es queden leds pausa ms en aquest estat
+                                       
+  digitalWrite(led0, HIGH);    
+  digitalWrite(led1, LOW);    
+  digitalWrite(led2, LOW);   
+  digitalWrite(led3, LOW);     
+  digitalWrite(led4, LOW);  
+  digitalWrite(led5, LOW);     
+  digitalWrite(led6, LOW);    
+  digitalWrite(led7, LOW);
+  
+  delay(pausa);                  // es queden leds pausa ms en aquest esta
 }
 
 //********** Funcions ***************************************************
